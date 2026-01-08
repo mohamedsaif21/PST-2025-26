@@ -1,0 +1,19 @@
+public class Main{
+public static void main(String[] args) {
+        int a = 20, b = 10 , c=30;
+        System.out.println("Find the greater number among 3 number");
+    
+        if(a>=b && a>=c){
+            System.out.println("A is greater");
+        }
+        else if(b>=c && b>=c){
+            System.out.println("B is greater");
+        }
+        else{
+            System.out.println("c is greater");
+        }
+        
+        System.out.println();
+}
+
+}

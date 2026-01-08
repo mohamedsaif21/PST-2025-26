@@ -1,0 +1,13 @@
+public class Main{
+public static void main(String[] args) {
+
+        int a = 20, b = 10;
+        System.out.println("Relation operators");
+        System.out.println("Two values are equal: " + (a == b)); 
+        System.out.println("Two values are not equal:" + (a != b)); 
+        System.out.println("Left values is greater:" + (a < b)); 
+        System.out.println("Left values is smaller:" + (a > b)); 
+        System.out.println("less then or equal:" + (a >= b)); 
+        System.out.println();
+}
+}
