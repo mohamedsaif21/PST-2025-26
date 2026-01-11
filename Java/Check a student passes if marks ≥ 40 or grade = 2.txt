@@ -1,0 +1,8 @@
+int marks = 35;
+int grade = 2;
+
+if (marks >= 40 || grade == 2) {
+    System.out.println("Student Passed");
+} else {
+    System.out.println("Student Failed");
+}

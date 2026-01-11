@@ -1,0 +1,7 @@
+int age = 16;
+
+if (!(age >= 18)) {
+    System.out.println("Person is NOT eligible to vote");
+} else {
+    System.out.println("Person is eligible to vote");
+}

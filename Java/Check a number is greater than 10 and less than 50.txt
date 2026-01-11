@@ -1,0 +1,7 @@
+int n = 25;
+
+if (n > 10 && n < 50) {
+    System.out.println("Number is between 10 and 50");
+} else {
+    System.out.println("Number is not in the range");
+}

@@ -1,0 +1,7 @@
+int x = 5;
+
+if (!(x == 0)) {
+    System.out.println("Number is not equal to 0");
+} else {
+    System.out.println("Number is equal to 0");
+}
