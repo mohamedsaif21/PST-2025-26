@@ -1,0 +1,9 @@
+public class Main{
+public static void main(String[] args) {
+    int table=2;
+    for(int a=1; a<=100 ; a++)
+    {
+        System.out.println(a+"*"+"2"+" = "+a*2);
+    }
+}
+}
