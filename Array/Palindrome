@@ -1,25 +1,39 @@
+package PST;
+
 import java.util.Scanner;
 
 public class Palindrome {
-
-        Scanner scanner = new Scanner(System.in);
-        
-        
-        System.out.println("Enter a string: ");
-        String str = scanner.nextLine();
-        
-        
-        String cleanStr = str.toLowerCase().replaceAll(" ", "");
-        
-        
-        String reversed = new StringBuilder(cleanStr).reverse().toString();
-        
-        
-        if (cleanStr.equals(reversed)) {
-            System.out.println("\"" + str + "\" is a PALINDROME");
+	
+	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		
+	System.out.println("Enter the name:");
+	
+	String n = scanner.next();
+	String rev="";
+	int count=0;
+	
+	for(int i=n.length() -1 ; i>=0 ; i--) {
+		 //System.out.println(n.charAt(i));
+		rev+=n.charAt(i);
+		}
+		for (int i = 0; i < rev.length(); i++) 
+		{
+			if(n.charAt(i)==rev.charAt(i))
+			{
+				count++;
+				
+			}
+		}
+	
+	
+		if(count == n.length()) {
+            System.out.println("It is a Palindrome");
         } else {
-            System.out.println("\"" + str + "\" is NOT a PALINDROME");
+            System.out.println("It is NOT a Palindrome");
         }
-        
-      
-}
+	
+	}
+	}
+
+ 
