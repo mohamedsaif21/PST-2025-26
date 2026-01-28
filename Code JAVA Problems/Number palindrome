@@ -1,0 +1,39 @@
+package PST;
+
+import java.util.Scanner;
+
+public class Palindrome {
+	
+	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		
+	System.out.println("Enter the number:");
+	
+	String n = scanner.next();
+	String rev="";
+	int count=0;
+	
+	for(int i=n.length() -1 ; i>=0 ; i--) {
+		 //System.out.println(n.charAt(i));
+		rev+=n.charAt(i);
+		}
+		for (int i = 0; i < rev.length(); i++) 
+		{
+			if(n.charAt(i)==rev.charAt(i))
+			{
+				count++;
+				
+			}
+		}
+	
+	
+		if(count == n.length()) {
+            System.out.println("It is a Palindrome");
+        } else {
+            System.out.println("It is NOT a Palindrome");
+        }
+	
+	}
+	}
+
+ 
