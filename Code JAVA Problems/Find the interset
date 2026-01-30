@@ -1,0 +1,28 @@
+package PST;
+import java.util.Scanner; 
+
+public class Practisecoding {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+
+        
+        System.out.print("Enter the principal amount: ");
+        int p = scanner.nextInt();
+
+        System.out.print("Enter the annual interest rate: ");
+        int r = scanner.nextInt();
+
+        System.out.print("Enter the time in years: ");
+        int t = scanner.nextInt();
+
+        
+        int PTS = (p * r * t) / 100;
+
+       
+        System.out.println("The simple interest is: " + PTS);
+
+        
+        scanner.close();
+    }
+}
