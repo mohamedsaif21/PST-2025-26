@@ -1,0 +1,26 @@
+package PST;
+import java.util.Scanner;
+
+public class leapyear {
+public static void main(String[] args) {
+        
+	int year;
+        Scanner scanner = new Scanner(System.in);
+
+        
+        System.out.print("Enter the year:");
+        year = scanner.nextInt();
+        
+        //It will div by 400 or it will div or not 100
+        if (( year%4 ==0 && year%100 !=0) || (year % 400 == 0)) {
+        	
+        	//true || false = true
+
+        	System.out.println("It is an leapyear");
+        }else {
+        	System.out.println("It is not an leap year");
+        }
+
+
+}
+}
