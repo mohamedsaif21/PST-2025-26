@@ -1,0 +1,56 @@
+package PST;
+
+import java.util.Scanner;
+public class method_scanner {	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	    System.out.println("Choose a method to run:");
+        System.out.println("1. vertise()");
+        System.out.println("2. growitt()");
+        System.out.println("3. dinesh()");
+        System.out.print("Enter your choice: ");
+
+        int choice = sc.nextInt();
+
+        switch (choice) {
+            case 1:
+                method2.vertise();
+                break;
+
+            case 2:
+                method2.growitt();
+                break;
+
+            case 3:
+                method3.dinesh();
+                break;
+
+            default:
+                System.out.println("Invalid choice!");
+        }
+	}
+}
+class method2{				
+		public static void vertise() {
+			String a = "saif";
+			System.out.println(a);	
+		}
+		public static void growitt() {
+			String a = "dinesh";
+			System.out.println(a);	
+		}
+		public static void growitt() {
+			String a = "dinesh";
+			System.out.println(a);	
+		}
+		 
+	}
+
+class method3{			
+		public static void dinesh() {
+			String a = "";
+			System.out.println(a);	
+		}
+		
+}
