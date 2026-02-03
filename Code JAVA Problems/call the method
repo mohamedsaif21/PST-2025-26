@@ -1,0 +1,37 @@
+package PST;
+
+//
+public class java {
+	
+	public static void main(String[]args) {
+		
+		method();
+		method1();
+		method2();
+		method3();
+		method4();
+		}
+		
+		public static void method() {
+			String a = "saif";
+			System.out.println(a);	
+		}
+		public static void method1() {
+			String b = "dinesh";
+			System.out.println(b);	
+		}
+		public static void method2() {
+			String c = "thil";
+			System.out.println(c);	
+		}
+		public static void method3() {
+			String d = "subash";
+			System.out.println(d);	
+		}
+		
+		public static void method4() {
+			String e = "srinath";
+			System.out.println(e);	
+		}
+	
+}
